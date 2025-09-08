@@ -1,0 +1,102 @@
+@media (max-width: 768px) {
+  body {
+    padding-top: 50px;
+    margin: 0px;
+  }
+  #header {
+    justify-content: center;
+    gap: 1px;
+    font-size: 14px;
+    height: 50px;
+  }
+  .button {
+    padding-right: 8px;
+    padding-top: 16px;
+  }
+  .button a {
+    padding: 8px 16px;
+  }
+  #home {
+    height: 100vh;
+  }
+  #home h1 {
+    font-size: 3rem;
+    margin-top: 0px;
+    padding: 0px;
+  }
+  #home p {
+    font-size: 1.2rem;
+    margin-top: 0px;
+    padding: 0px;
+  }
+  #about {
+    height: 100vh;
+  }
+  #about h1 {
+    font-size: 1.7rem;
+  }
+  #about p {
+    font-size: 0.8rem;
+    width: 40%;
+  }
+  #about img {
+    height: 150px;
+  }
+  #skills {
+    padding: 20px;
+  }
+  #skills {
+    height: auto;
+  }
+  #skills h1 {
+    font-size: 1.7rem;
+  }
+  #skills h2 {
+    font-size: 0.9rem;
+  }
+  #skills p {
+    font-size: 0.8rem;
+  }
+  #skills img {
+    width: 150px;
+    height: 150px;
+  }
+  .section3 {
+    flex-direction: column;
+    padding: 0px 20px;
+  }
+  #projects h1 {
+    font-size: 1.7rem;
+  }
+  #projects img {
+    width: 300px;
+  }
+  #projects img:hover {
+    width: 90%;
+  }
+  .grid3 {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  #contact h1 {
+    font-size: 1.7rem;
+  }
+  .section5 {
+    font-size: 1rem;
+  }
+  svg {
+    height: 23px;
+  }
+  #f {
+    height: 120px;
+  }
+  .container {
+    height: 92px;
+  }
+  .container a {
+    font-size: 14px;
+  }
+  .end {
+    font-size: 10px;
+  }
+}

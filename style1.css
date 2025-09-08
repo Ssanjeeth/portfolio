@@ -1,0 +1,244 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #ffefec;
+  font-family: "Poppins", sans-serif;
+  padding-top: 60px;
+  margin: 0px;
+}
+/* Header */
+#header {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #e55050;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  z-index: 10;
+}
+.button {
+  padding-right: 10px;
+  padding-top: 20px;
+}
+.button a {
+  color: #fff2e0;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+.button a:hover {
+  border-radius: 8px;
+  background-color: #fff2e0;
+  color: #e55050;
+}
+/* Section-1 */
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#home h1 {
+  color: #e55050;
+  font-size: 5rem;
+  font-family: "Lobster", sans-serif;
+}
+#home p {
+  color: #e55050;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+/* Section-2 */
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+#about h1 {
+  color: #e55050;
+  font-size: 2.5rem;
+  font-family: "Bungee", sans-serif;
+}
+#about p {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  width: 20%;
+  line-height: 1.5;
+}
+#about img {
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Section-3 */
+#skills {
+  text-align: center;
+  padding: 40px;
+}
+#skills h1 {
+  color: #e55050;
+  font-size: 2.5rem;
+  font-family: "Bungee", sans-serif;
+}
+#skills img {
+  width: 200px;
+  height: 200px;
+  padding-top: 10px;
+  border-radius: 8px;
+}
+#skills h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #e55050;
+  text-align: start;
+}
+#skills p {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  text-align: start;
+}
+.grid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px;
+  flex: 1;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  flex: 1;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+.section3 {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.grid1,
+.grid2 {
+  background-color: #fffaf5;
+}
+
+.grid1,
+.grid2 {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.grid1:hover,
+.grid2:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+  background-color: #ff6666;
+}
+
+#skills .grid1:hover h2,
+#skills .grid2:hover h2 {
+  color: #fff2e0;
+}
+#skills .grid1:hover p,
+#skills .grid2:hover p {
+  color: white;
+}
+/* Section-4 */
+#projects {
+  text-align: center;
+  padding: 100px 0px;
+}
+#projects h1 {
+  color: #e55050;
+  font-size: 2.5rem;
+  font-family: "Bungee", sans-serif;
+}
+.grid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 20px;
+  gap: 0px;
+}
+#projects img {
+  width: 85%;
+  height: auto;
+  transition: 0.3s;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+#projects h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-weight: 350;
+  font-size: 1rem;
+}
+#projects img:hover {
+  width: 100%;
+}
+/* Section-5 */
+#contact {
+  padding: 100px 0px;
+}
+#contact h1 {
+  text-align: center;
+  color: #e55050;
+  font-size: 2.5rem;
+  font-family: "Bungee", sans-serif;
+}
+.section5 {
+  padding: 80px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+svg {
+  transition: 0.3s;
+}
+svg:hover {
+  transform: scale(1.05);
+}
+/* Footer */
+#f {
+  width: 100%;
+  height: 150px;
+  background-color: #e55050;
+}
+.container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 110px;
+}
+.end {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #fff2e0;
+  font-size: 12px;
+}
+.container a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+  font-size: 18px;
+}
+.container a:hover {
+  color: black;
+}
+section:not(#projects):not(#contact) {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
